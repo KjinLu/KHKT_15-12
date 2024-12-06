@@ -1,0 +1,40 @@
+/* Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: #00bbff;
+    color: white;
+    height: 80px;
+  }
+  
+  .navbar-logo img {
+    width: 50px; 
+    height: auto;
+  }
+  
+  .navbar-menu{
+    display: flex;
+    gap: 50px;
+  }
+  
+  .navbar-links {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .login-btn {
+    background-color: #fff;
+    color: #00bbff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .login-btn:hover {
+    background-color: #0056b3;
+  }
+  
