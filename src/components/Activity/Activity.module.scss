@@ -1,0 +1,47 @@
+.main {
+    margin-top: 50px;
+    padding: 0 150px;
+  }
+  
+  .tittle {
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .hoatdong-main{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .hoatdong{
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .hoatdong-child{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+  }
+  
+  
+  
+  .hoatdong-image-main{
+    width: 40%;
+  }
+  
+  .hoatdong-image{
+    width: 220px;
+    height: auto;
+  }
+  
+  .hoatdong-content-main{
+    width: 60%;
+  }
+  
+  .hoatdong-name{
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
